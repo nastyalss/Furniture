@@ -960,13 +960,15 @@ img{
     }
     .logo{
         margin-right:auto;
+        width: 140px;
+        height: 20px;
     }
     .burger{
         display: block;
         margin-right:20px;
     }
     .basket{
-        margin-right: 0;
+        margin-right:-25px;
     }
     .menu {
         display: flex;
