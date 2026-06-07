@@ -742,7 +742,6 @@ img{
     outline: none;
 }
 
-
 @media (max-width: 1400px) {
     .container {
         padding: 0 30px;
@@ -957,18 +956,17 @@ img{
 
 @media (max-width: 768px) {
     .menu__wrapper{
-        justify-content: flex-start;
-        position: relative;
+        padding: 0 30px;
     }
     .logo{
         margin-right:auto;
     }
     .burger{
         display: block;
-        margin-left:0;
+        margin-right:20px;
     }
     .basket{
-        margin-left: auto;
+        margin-right: 0;
     }
     .menu {
         display: flex;
