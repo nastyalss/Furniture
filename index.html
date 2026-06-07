@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniutr</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="header__fixed">
+                <section class="section header-menu">
+                    <div class="menu__wrapper container">
+                        <div class="logo">
+                            <a href="/" class="logo header__logo">
+                                <img src="img/Furniutr..svg" alt="Логотип">
+                            </a>
+                        </div>
+                        <nav class="menu">
+                            <ul class="mainmenu__list">
+                                <li class="mainmenu__item"><a class="menu__link" href="#main">Главная</a></li>
+                                <li class="mainmenu__item"><a class="menu__link" href="#about">О нас</a></li>
+                                <li class="mainmenu__item"><a class="menu__link" href="#advantages">Преимущества</a></li>
+                                <li class="mainmenu__item"><a class="menu__link" href="#gallery">Галерея работ</a></li>
+                            </ul>
+                        </nav>
+                        <div class="basket">
+                            <ul class="basket__list">
+                                <li class="basket__item">
+                                    <a class="basket__link" href="#" aria-label="Корзина">
+                                        <img src="img/Group.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="basket__item">
+                                    <a class="basket__link" href="#" aria-label="Поиск">
+                                        <img src="img/Vector.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="burger" aria-label="Открыть меню" aria-expanded="false">
+                            <span class="burger__line"></span>
+                            <span class="burger__line"></span>
+                            <span class="burger__line"></span>
+                            <span class="burger__line"></span>
+                        </button>
+                    </div>
+                </section>
+                </div>
+                <section class="section banner" id="main">
+                    <div class="container">
+                        <div class="slider__wrapper">
+                            <img src="img/grid.svg" alt="" class="grid">
+                            <img src="img/dots.svg" alt="" class="dots">
+                            <div class="slider__list">
+                                <div class="slider__item">
+                                    <div class="slider__item-text">
+                                        <img src="img/Rectangle5.svg" alt="Красная линия" class="red-line">
+                                        <p class="slider__text">Дизайнерская мебель</p>
+                                        <p class="slider__big-text">Создадим уникальную мебель по вашей идее</p>
+                                        <a href="#main" class="button1">Узнать больше</a>
+                                        <a href="#" class="button2">
+                                            <span class="button2__circle">
+                                                <img src="img/Polygon1.svg">
+                                            </span>
+                                            Смотреть видео
+                                        </a>
+                                    </div>
+                                    <div class="slider__item-image">
+                                        <img src="img/image1.svg" alt="Дизайн">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </header>
+            <main>
+                <section class="section about" id="about">
+                    <div class="container">
+                        <div class="about__wrapper">
+                            <img src="img/black-rectangle-small.svg" alt="" class="about__rectangle-small">
+                            <div class="about__image">
+                                <img src="img/image2.svg" alt="Мебель">
+                            </div>
+                            <img src="img/black-rectangle-big.svg" alt="" class="about__rectangle-big">
+                            <div class="about__content">
+                                <h2 class="about__title">О нас</h2>
+                                <p class="about__subtitle">Furniture</p>
+                                <p class="about__text">Разработаем дизайн-проект, и создадим мебель фабричного качества по Вашей идее</p>
+                                <a href="#about" class="button button--readmore">Читать больше</a>
+                            </div>
+                        </div>
+                        <img src="img/dots2.svg" alt="" class="about__dots">
+                    </div>
+                </section>
+                <section class="section advantages" id="advantages">
+                    <div class="container">
+                        <h2 class="advantages__title">Преимущества</h2>
+                        <p class="advantages__subtitle">Furniture</p>
+                        <div class="advantages__image">
+                            <img src="img/background.svg" alt="Фон">
+                        </div>
+                        <div class="advantages__cards">
+                            <div class="advantages__card advantages__card--1">
+                                <div class="advantages__number-wrapper"><p class="advantages__number">1</p></div>
+                                
+                                <div class="advantages__card-content">
+                                    <h3 class="advantages__card-title">Полный спектр услуг</h3>
+                                    <p class="advantages__card-text">Мы предоставляем лучший сервис и очень быструю реакцию.</p>
+                                </div>
+                            </div>
+                            <div class="advantages__card advantages__card--2">
+                                <div class="advantages__number-wrapper"><p class="advantages__number">2</p></div>
+                                <div class="advantages__card-content">
+                                    <h3 class="advantages__card-title">Длительная гарантия</h3>
+                                    <p class="advantages__card-text">Предоставляется 5-летняя гарантия, обеспечивающая удовлетворительное обслуживание.</p>
+                                </div>
+                            </div>
+                            <div class="advantages__card advantages__card--3">
+                                <div class="advantages__number-wrapper"><p class="advantages__number">3</p></div>
+                                <div class="advantages__card-content">
+                                    <h3 class="advantages__card-title">Современный дизайн</h3>
+                                    <p class="advantages__card-text">Комната выглядит великолепно, в ней гармонично сочетаются современный и привлекательный дизайн.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img src="img/adv-dots.svg" alt="" class="advantages__dots">
+                    </div>
+                </section>
+                <section class="section gallery" id="gallery">
+                    <div class="container">
+                        <div class="gallery__header">
+                            <div class="gallery__titles">
+                                <h2 class="gallery__title">Галерея наших работ</h2>
+                                <p class="gallery__subtitle">Product</p>
+                            </div>
+                            <div class="gallery__nav">
+                                <button class="gallery__btn gallery__btn--prev" aria-label="Предыдущий">
+                                    <img src="img/left.svg" alt="">
+                                </button>
+                                <button class="gallery__btn gallery__btn--next" aria-label="Следующий">
+                                    <img src="img/right.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="gallery__cards">
+                            <div class="gallery__card">
+                                <div class="gallery__card-image">
+                                    <img src="img/photo1.png" alt="Современная лампа">
+                                </div>
+                                <h3 class="gallery__card-title">Современная лампа</h3>
+                                <p class="gallery__card-price">$258</p>
+                            </div>
+
+                            <div class="gallery__card">
+                                <div class="gallery__card-image">
+                                    <img src="img/photoo2.png" alt="Стул">
+                                </div>
+                                <h3 class="gallery__card-title">Дизайнерский стул</h3>
+                                <p class="gallery__card-price">$135</p>
+                            </div>
+
+                            <div class="gallery__card">
+                                <div class="gallery__card-image">
+                                    <img src="img/phooto2.png" alt="Классическая лампа">
+                                </div>
+                                <h3 class="gallery__card-title">Классическая лампа</h3>
+                                <p class="gallery__card-price">$425</p>
+                            </div>
+
+                                <div class="gallery__card">
+                                <div class="gallery__card-image">
+                                    <img src="img/photo4.png" alt="Часы">
+                                </div>
+                                <h3 class="gallery__card-title">Милые часы</h3>
+                                <p class="gallery__card-price">$331</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section contact">
+                    <div class="container">
+                        <div class="contact__wrapper">
+                            <div class="contact__text">
+                                <p class="contact__subtitle">Свяжитесь</p>
+                                <h1></h1>
+                                <h2 class="contact__title">С НАМИ</h2>
+                            </div>
+
+                            <form class="contact__form">
+                                <input type="text" class="contact__input" placeholder="Имя" aria-label="Ваше имя" required>
+                                <input type="tel" class="contact__input" placeholder="Телефон" aria-label="Ваш телефон" required>
+                                <textarea class="contact__textarea" placeholder="Оставить свое сообщение" required></textarea>
+                                <button type="submit" class="button button--send">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+                
+            </main>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer__wrapper">
+                        <div class="footer__line"></div>
+                        <div class="footer__contacts">
+                            <h3 class="footer__title">Контакты</h3>
+                            <a href="mailto:Furniutr2@furniture.com" class="footer__link footer__link1">Furniutr2@furniture.com</a>
+                            <a href="tel:+1888315500" class="footer__link footer__link2">(888) 315-500</a>
+                            <p class="footer__address">St. Village, New York</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
